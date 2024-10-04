@@ -10,6 +10,7 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: curriculum_vitae.tex
+          post_compile: "mv curriculum_vitae.pdf rolfbritten_cv.pdf"
       - name: Upload PDF file
         uses: actions/upload-artifact@v4
         with:
