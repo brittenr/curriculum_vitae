@@ -9,7 +9,7 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: CURRICULUM_VITAE.tex
+          root_file: curriculum_vitae.tex
       - name: Upload PDF file
         uses: actions/upload-artifact@v4
         with:
